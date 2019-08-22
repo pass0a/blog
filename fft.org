@@ -1,0 +1,20 @@
+#+TITLE: FFT算法原理
+#+AUTHOR: liu wen jun
+#+STARTUP: latexpreview
+#+OPTIONS: tex:t
+* 引用文章
+原文请查看[[https://blog.csdn.net/shengzhadon/article/details/46737517#comments][数字信号处理公式变程序（一）——DFT、FFT]]
+* DFT
+直接上DFT公式
+\begin{equation}
+X(k)=\sum_{n=0}^{N-1} x(n)W_N^{nk}     ,k=0,1,...,N-1
+\end{equation}
+其中，$$W_N^{nk}$$为旋转因子，其计算公式为
+\begin{equation}
+W_N^{nk}=e^{-j\frac{2\pi}{N}nk},n=0,1,...,N-1
+\end{equation}
+旋转因子具有如下特质：
+1. 周期性
+2. 共轭对称性
+3. 可约性
+4. 特殊值

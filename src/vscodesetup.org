@@ -1,0 +1,7 @@
+#+TITLE: VSCode必要设置
+#+AUTHOR: liu wen jun
+#+STARTUP: latexpreview
+#+OPTIONS: tex:t
+* VSCode必要设置
+** 占用内存过大的问题
+依次点击文件，首选项，设置，然后搜索search.followSymlinks，去掉这项的勾选项。
